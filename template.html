@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{META_NAME}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page-shell">
+  <header class="topbar">
+    <a href="#" class="brand-mark">
+      <span class="brand-monogram">{{META_INITIALS}}</span>
+      <span class="brand-text">
+        <span class="brand-name">{{META_NAME}}</span>
+        <span class="brand-role">{{META_ROLE}}</span>
+      </span>
+    </a>
+
+    <nav class="topnav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#publications">Publications</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#education">Education</a>
+      <a href="#resume">Resume</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <section id="about" class="hero-panel">
+      <figure class="hero-portrait hero-portrait-left">
+        <div class="hero-portrait-frame">
+          <img src="images/avatar.png" alt="{{META_NAME}} speaking at an event" />
+        </div>
+      </figure>
+
+      <div class="hero-main">
+        <div class="hero-copy">
+          <h1>{{META_HERO_TITLE}}</h1>
+          <p class="hero-desc">{{META_HERO_DESC}}</p>
+        </div>
+
+        <div class="hero-details">
+          <div class="hero-about prose-block">
+            <div class="panel-label">About</div>
+            {{ABOUT_INTRO}}
+          </div>
+
+          <div class="hero-research prose-block">
+            <div class="panel-label">Research Interests</div>
+            {{ABOUT_INTERESTS}}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="section-heading">
+        <div class="section-tag">Experience</div>
+      </div>
+      <div class="exp-list">
+        {{EXPERIENCE}}
+      </div>
+    </section>
+
+    <section id="publications">
+      <div class="section-heading">
+        <div class="section-tag">Publications &amp; Models</div>
+      </div>
+      <div class="pub-list">
+        {{PUBLICATIONS}}
+      </div>
+    </section>
+
+    <section id="capabilities">
+      <div class="section-heading">
+        <div class="section-tag">Capabilities</div>
+      </div>
+      <div class="skills-panel capabilities-panel">
+        {{SKILLS}}
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="section-heading">
+        <div class="section-tag">Education &amp; Awards</div>
+      </div>
+      {{EDUCATION}}
+    </section>
+
+    <section id="resume">
+      <div class="section-heading">
+        <div class="section-tag">Resume</div>
+      </div>
+      <div class="resume-viewer">
+        <iframe src="{{RESUME_URL}}" width="100%" height="900px" style="border:none; border-radius:12px;"></iframe>
+        <div class="resume-actions">
+          <a href="{{RESUME_URL}}" download class="btn btn-primary">Download CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+  const topbar = document.querySelector('.topbar');
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.topnav a');
+
+  function updateScrollPadding() {
+    document.documentElement.style.scrollPaddingTop = topbar.offsetHeight + 'px';
+  }
+  updateScrollPadding();
+  window.addEventListener('resize', updateScrollPadding);
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(a => a.classList.remove('active'));
+        const active = document.querySelector(`.topnav a[href="#${entry.target.id}"]`);
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  sections.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>

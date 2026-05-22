@@ -1,0 +1,35 @@
+[
+  {
+    "role": "AI Research Engineer",
+    "org": "ATMRI · NTU",
+    "location": "Singapore",
+    "period": "Aug 2025 — Present",
+    "bullets": [
+      "Multi-hop RAG: Developing retrieval-augmented reasoning frameworks for multi-hop question answering, focusing on graph-based retrieval, evidence grounding, and agentic search trajectories.",
+      "ATC Assistant: Architecting a multimodal chatbot assistant for air traffic management research, enabling retrieval across heterogeneous aviation documents, structured data, and domain-specific knowledge sources."
+    ]
+  },
+  {
+    "role": "LLM Scientist",
+    "org": "Zalo AI · VNG Corporation",
+    "location": "Vietnam",
+    "period": "Jul 2023 — Jul 2025",
+    "bullets": [
+      "Multimodal Image Retrieval: Led the development of multimodal retrieval solutions for Zalo Image Search, supporting large-scale, low-latency inference for millions of users.",
+      "LLM Post-training: Designed and executed large-scale supervised fine-tuning and instruction-tuning experiments for LLMs and VLMs across Vietnamese language understanding, reasoning, and multimodal tasks.",
+      "Human-in-the-loop Data Pipeline: Built human-in-the-loop annotation and feedback workflows, including annotation guidelines, quality-control protocols, and iterative data refinement for high-quality instruction-tuning datasets.",
+      "Model Performance: Improved Kiki LM performance on VMLU Vi-Dialog from 44% to 84%, and developed Kiki VLM to reach 43.8%, achieving the highest score on Vi-MTVQA.",
+      "LLM Pre-training: Directed data-centric pre-training research for KiLM, producing nearly 2TB of cleaned Vietnamese text for training a Vietnamese large language model from scratch."
+    ]
+  },
+  {
+    "role": "AI Research Engineer",
+    "org": "FSoft AI Center · FPT Corporation",
+    "location": "Vietnam",
+    "period": "Jan 2022 — Jun 2023",
+    "bullets": [
+      "Vietnamese Language Modeling: Co-authored ViDeBERTa, a state-of-the-art Vietnamese encoder model accepted to EACL 2023, establishing a strong baseline for Vietnamese natural language understanding.",
+      "Efficient Pre-training: Conducted research on efficient transformer pre-training and model optimization for Vietnamese NLP, improving downstream performance."
+    ]
+  }
+]

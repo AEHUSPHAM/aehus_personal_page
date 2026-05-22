@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Retrieval-Guided Planning for Robust Multi-Hop Reasoning",
+    "venue": "Under Review",
+    "date": "2025",
+    "type": "paper",
+    "status": "review",
+    "role": "First Author",
+    "desc": "A framework that empowers agents to dynamically refine their search trajectory based on intermediate retrieval results, ensuring every reasoning step is strictly grounded in available evidence."
+  },
+  {
+    "title": "AIPQA: Benchmarking Multimodal Retrieval on Technical Aviation Documents",
+    "venue": "Under Review",
+    "date": "2025",
+    "type": "paper",
+    "status": "review",
+    "role": "First Author",
+    "desc": "Introduces AIPQA, a multimodal question-answering benchmark grounded in the Singapore Aeronautical Information Publication (SG-AIP)."
+  },
+  {
+    "title": "Safety-Oriented Evaluation of Language Understanding Systems for Air Traffic Control",
+    "venue": "ITSC 2026",
+    "date": "ITSC 2026",
+    "type": "paper",
+    "status": "published",
+    "role": "Co-author",
+    "desc": "Studies the problem of evaluating language understanding systems in safety-critical ATC environments and proposes a risk-aware, consequence-oriented evaluation framework."
+  },
+  {
+    "title": "VMLU: A Comprehensive Benchmark for Vietnamese Language Model Understanding",
+    "venue": "ACL 2025",
+    "date": "ACL 2025",
+    "type": "paper",
+    "status": "published",
+    "role": "Co-author",
+    "desc": "A definitive benchmark evaluating reasoning, planning, and safety in Vietnamese LLMs — establishing a critical standard for model evaluation. Evaluates Llama-3, Qwen2.5, GPT-4 and more."
+  },
+  {
+    "title": "KiLM — Vision Language Model",
+    "venue": "ZaloAI · VNG",
+    "date": "Oct 2024",
+    "type": "model",
+    "status": "published",
+    "role": "Main Developer",
+    "desc": "Vision language models for image captioning, OCR, and visual question answering powering Zalo's image retrieval features. Achieved 43.8 on MTVQA — highest at time of release."
+  },
+  {
+    "title": "KiLM",
+    "venue": "ZaloAI · VNG",
+    "date": "Jun 2024",
+    "type": "model",
+    "status": "published",
+    "role": "Main Developer",
+    "desc": "One of the first Vietnamese LLMs pre-trained from scratch on nearly 2TB of clean Vietnamese text. Achieved SOTA on TencentLMEval and VMLU, surpassing GPT-4 with 66.07 on VMLU."
+  },
+  {
+    "title": "VinaLLaMA",
+    "venue": "Arxiv",
+    "date": "",
+    "type": "paper",
+    "status": "published",
+    "role": "Co-founder & Main Developer",
+    "desc": "First instruction-tuned LLaMA-based models for Vietnamese, achieving thousands of monthly downloads and fostering the local open-source AI community."
+  },
+  {
+    "title": "Vietcuna",
+    "venue": "Open Source",
+    "date": "2023",
+    "type": "model",
+    "status": "published",
+    "role": "Co-founder & Main Developer",
+    "desc": "First instruction-tuned BLOOMZ-based model for Vietnamese, achieving thousands of monthly downloads and fostering the local open-source AI community."
+  },
+  {
+    "title": "ViDeBERTa: A powerful pre-trained language model for Vietnamese",
+    "venue": "EACL 2023",
+    "date": "EACL 2023",
+    "type": "paper",
+    "status": "published",
+    "role": "Co-first Author",
+    "desc": "A pre-trained monolingual encoder for Vietnamese trained on a large-scale, high-quality corpus, significantly outperforming previous BERT-based models on downstream NLU tasks."
+  },
+  {
+    "title": "A study of R-Drop in BARTpho for Vietnamese Abstractive Text Summarization",
+    "venue": "THE10THSTSOISP",
+    "date": "",
+    "type": "paper",
+    "status": "published",
+    "role": "First Author",
+    "desc": "Enhanced BARTpho performance for Vietnamese text summarization using R-Drop regularization."
+  }
+]

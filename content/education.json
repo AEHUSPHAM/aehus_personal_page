@@ -1,0 +1,23 @@
+{
+  "degrees": [
+    {
+      "degree": "B.Sc. in Computer Science",
+      "institution": "VNU-Ho Chi Minh City University of Technology",
+      "period": "2019 – 2023"
+    },
+    {
+      "degree": "Specialization in Mathematics — Provincial Olympiad Scholar",
+      "institution": "Long An High School for the Gifted",
+      "period": "2016 – 2019"
+    }
+  ],
+  "languages": "Vietnamese (Native) · English (IELTS 7.0)",
+  "awards": [
+    "Top 10 AI Talents, AI Awards @ AI4VN 2025 (VnExpress)",
+    "Invited Speaker, Agentcon 2025 (SUTD) & Google I/O Extended HCM 2025",
+    "AI Facilitator, Build With AI Ho Chi Minh City 2024",
+    "Invited Speaker, GDSC Summit 2022",
+    "Chapter Lead, Google Developer Student Clubs (GDSC), 2022 – 2023",
+    "Community Contributor, Google Developer Student Clubs (GDSC), 2019 – 2023"
+  ]
+}

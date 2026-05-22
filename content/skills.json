@@ -1,0 +1,6 @@
+[
+  { "label": "Core Expertise", "value": "LLM Pre-training & SFT, Multimodal AI (VLM), RAG Pipelines, Agentic Systems, Data Synthesis, Model Evaluation & Benchmarking" },
+  { "label": "Frameworks",     "value": "PyTorch, Hugging Face (Transformers, Accelerate, PEFT), Langchain, Axolotl, DeepSpeed, AWS (SageMaker, EC2)" },
+  { "label": "Architectures",  "value": "Transformers (GPT, LLaMA, DeBERTa), ViT, Encoder-Decoder Models" },
+  { "label": "Languages",      "value": "Python, C++, SQL, Bash" }
+]
