@@ -311,6 +311,34 @@ section,
   filter: saturate(0.88) contrast(0.95) brightness(1.01);
 }
 
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.contact-item:hover {
+  color: var(--accent);
+}
+
+.contact-icon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--soft);
+  flex-shrink: 0;
+}
+
 .skills-panel,
 .pub-item,
 .exp-item,
