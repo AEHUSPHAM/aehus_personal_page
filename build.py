@@ -94,6 +94,8 @@ def build_social(meta):
     parts = []
     if meta.get("email"):
         parts.append(f'<a href="mailto:{meta["email"]}" class="contact-item"><span class="contact-icon">{email_icon}</span><span>{meta["email"]}</span></a>')
+    if meta.get("phone"):
+        parts.append(f'<span class="contact-item"><span class="contact-icon">{phone_icon}</span><span>{meta["phone"]} (Zalo)</span></span>')
     for key, label in [("github", "GitHub"), ("linkedin", "LinkedIn"), ("scholar", "Scholar")]:
         if meta.get(key):
             parts.append(f'<a href="{meta[key]}" class="contact-item"><span>{label}</span></a>')
