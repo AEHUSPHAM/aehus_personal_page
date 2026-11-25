@@ -126,6 +126,7 @@ def build_publications(pubs):
         if p.get("role"):
             byline_parts.append(f' · <span class="role">{p["role"]}</span>')
         byline = "".join(byline_parts)
+        title = f'<a href="{p["url"]}">{p["title"]}</a>' if p.get("url") else p["title"]
 
         return f"""\
         <article class="{item_class}">
@@ -135,7 +136,7 @@ def build_publications(pubs):
               <span class="pub-year">{p["date"]}</span>
             </div>
           </div>
-          <div class="pub-title">{p['title']}</div>
+          <div class="pub-title">{title}</div>
           <div class="pub-byline">{byline}</div>
           <p class="pub-desc">{p['desc']}</p>
         </article>"""
@@ -252,7 +253,7 @@ def build():
         "{{META_ORG}}":       meta["org"],
         "{{META_TAGLINE}}":   meta["tagline"],
         "{{META_HERO_TITLE}}": "Research-minded, Production-disciplined",
-        "{{META_HERO_DESC}}": "AI Research Engineer at ATMRI (NTU).",
+        "{{META_HERO_DESC}}": meta.get("hero_desc", ""),
         "{{SOCIAL_LINKS}}":   build_social(meta),
         "{{ABOUT}}":          about,
         "{{ABOUT_INTRO}}":    about_intro,

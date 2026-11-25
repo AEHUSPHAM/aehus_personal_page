@@ -1,39 +1,33 @@
 [
   {
-    "title": "Retrieval-Guided Planning for Robust Multi-Hop Reasoning",
-    "venue": "Under Review",
-    "date": "2025",
-    "type": "paper",
-    "status": "review",
-    "role": "First Author",
-    "desc": "A framework that empowers agents to dynamically refine their search trajectory based on intermediate retrieval results, ensuring every reasoning step is strictly grounded in available evidence."
-  },
-  {
-    "title": "AIPQA: Benchmarking Multimodal Retrieval on Technical Aviation Documents",
-    "venue": "Under Review",
-    "date": "2025",
-    "type": "paper",
-    "status": "review",
-    "role": "First Author",
-    "desc": "Introduces AIPQA, a multimodal question-answering benchmark grounded in the Singapore Aeronautical Information Publication (SG-AIP)."
-  },
-  {
-    "title": "Safety-Oriented Evaluation of Language Understanding Systems for Air Traffic Control",
-    "venue": "ITSC 2026",
-    "date": "ITSC 2026",
+    "title": "Beyond Semantic Accuracy: Consequence-Aware Evaluation for Safety-Critical Language Understanding",
+    "venue": "EMNLP 2026",
+    "date": "EMNLP 2026",
     "type": "paper",
     "status": "published",
     "role": "Co-author",
-    "desc": "Studies the problem of evaluating language understanding systems in safety-critical ATC environments and proposes a risk-aware, consequence-oriented evaluation framework."
+    "url": "https://aclanthology.org/2026.emnlp-main.2141/",
+    "desc": "Tests whether semantic scores misstate operational reliability in air traffic control. Across eight models, conventional metrics overstate reliability; risk-aware fine-tuning narrows but does not close the gap."
   },
   {
-    "title": "VMLU: A Comprehensive Benchmark for Vietnamese Language Model Understanding",
+    "title": "Safety-Oriented Evaluation of Language Understanding Systems for Air Traffic Control",
+    "venue": "IEEE ITSC 2026",
+    "date": "IEEE ITSC 2026",
+    "type": "paper",
+    "status": "published",
+    "role": "Co-author",
+    "desc": "Studies the problem of evaluating language understanding systems in safety-critical ATC environments and proposes a risk-aware, consequence-oriented evaluation framework.",
+    "url": "https://arxiv.org/abs/2605.11769"
+  },
+  {
+    "title": "VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs",
     "venue": "ACL 2025",
     "date": "ACL 2025",
     "type": "paper",
     "status": "published",
     "role": "Co-author",
-    "desc": "A definitive benchmark evaluating reasoning, planning, and safety in Vietnamese LLMs — establishing a critical standard for model evaluation. Evaluates Llama-3, Qwen2.5, GPT-4 and more."
+    "desc": "Four datasets assessing the general knowledge, reading comprehension, reasoning and conversational skills of Vietnamese LLMs. Evaluates Llama-3, Qwen2.5, GPT-4 and more.",
+    "url": "https://aclanthology.org/2025.acl-long.563/"
   },
   {
     "title": "KiLM — Vision Language Model",
@@ -42,7 +36,7 @@
     "type": "model",
     "status": "published",
     "role": "Main Developer",
-    "desc": "Vision language models for image captioning, OCR, and visual question answering powering Zalo's image retrieval features. Achieved 43.8 on MTVQA — highest at time of release."
+    "desc": "Vision language models for image captioning, OCR, and visual question answering powering Zalo's image retrieval features. Achieved 43.8% on Vi-MTVQA — highest at time of release."
   },
   {
     "title": "KiLM",
@@ -51,16 +45,17 @@
     "type": "model",
     "status": "published",
     "role": "Main Developer",
-    "desc": "One of the first Vietnamese LLMs pre-trained from scratch on nearly 2TB of clean Vietnamese text. Achieved SOTA on TencentLMEval and VMLU, surpassing GPT-4 with 66.07 on VMLU."
+    "desc": "One of the first Vietnamese LLMs pre-trained from scratch on nearly 7 TB of cleaned text. Achieved SOTA on TencentLMEval and VMLU, surpassing GPT-4 with 66.07 on VMLU."
   },
   {
-    "title": "VinaLLaMA",
-    "venue": "Arxiv",
-    "date": "",
+    "title": "VinaLLaMA: LLaMA-based Vietnamese Foundation Model",
+    "venue": "arXiv",
+    "date": "2023",
     "type": "paper",
     "status": "published",
-    "role": "Co-founder & Main Developer",
-    "desc": "First instruction-tuned LLaMA-based models for Vietnamese, achieving thousands of monthly downloads and fostering the local open-source AI community."
+    "role": "Co-founder & Lead Developer",
+    "desc": "An early open-weight Vietnamese LLM that adds 800B pre-training tokens to LLaMA-2. Its chat model, tuned on 1M synthetic samples, was state of the art at release.",
+    "url": "https://arxiv.org/abs/2312.11011"
   },
   {
     "title": "Vietcuna",
@@ -68,17 +63,18 @@
     "date": "2023",
     "type": "model",
     "status": "published",
-    "role": "Co-founder & Main Developer",
+    "role": "Co-founder & Lead Developer",
     "desc": "First instruction-tuned BLOOMZ-based model for Vietnamese, achieving thousands of monthly downloads and fostering the local open-source AI community."
   },
   {
-    "title": "ViDeBERTa: A powerful pre-trained language model for Vietnamese",
-    "venue": "EACL 2023",
-    "date": "EACL 2023",
+    "title": "ViDeBERTa: A Powerful Pre-trained Language Model for Vietnamese",
+    "venue": "Findings of EACL 2023",
+    "date": "Findings of EACL 2023",
     "type": "paper",
     "status": "published",
     "role": "Co-first Author",
-    "desc": "A pre-trained monolingual encoder for Vietnamese trained on a large-scale, high-quality corpus, significantly outperforming previous BERT-based models on downstream NLU tasks."
+    "desc": "A Vietnamese encoder that surpassed the previous state of the art on several NLU tasks, with a base model under a quarter the size of PhoBERT-large.",
+    "url": "https://aclanthology.org/2023.findings-eacl.79/"
   },
   {
     "title": "A study of R-Drop in BARTpho for Vietnamese Abstractive Text Summarization",

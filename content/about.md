@@ -1,8 +1,9 @@
-AI Research Engineer at ATMRI (NTU) with four years of specialized experience in Large Language Models. Expert in designing multimodal solutions for production systems serving millions of users. Passionate about bridging the gap between cutting-edge NLP research and scalable, production-grade AI applications.
+Post-training research engineer with nearly five years of experience adapting language models to new languages, domains and products. I have built Vietnamese LLMs and VLMs end to end: data curation, human and synthetic data, SFT and evaluation. I co-developed the VMLU benchmark (ACL 2025) and co-authored safety-critical evaluation research (EMNLP 2026).
 
 ## Research Interests
 
-- Multihop Reasoning & Agentic RAG Pipelines
-- Multimodal Large Language Models (VLM)
+- LLM Post-training & Synthetic Data
 - Multilingual & Low-resource Language Modeling
-- LLM Pre-training, Post-training & Alignment
+- Evaluation & Benchmarking for Safety-Critical Domains
+- Multimodal Large Language Models (VLM)
+- Multi-hop Reasoning & Agentic RAG

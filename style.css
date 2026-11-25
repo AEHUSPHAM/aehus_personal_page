@@ -646,6 +646,11 @@ section {
   min-height: 2.8em;
 }
 
+.pub-title a:hover {
+  color: var(--accent-strong);
+  text-decoration: underline;
+}
+
 .pub-byline {
   display: flex;
   align-items: center;
